@@ -41,8 +41,8 @@
       <file leaf-file-name="pdf.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/default/pdf.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="6779" column="48" lean-forward="false" selection-start-line="6779" selection-start-column="48" selection-end-line="6779" selection-end-column="48" />
+            <state relative-caret-position="234">
+              <caret line="6784" column="109" lean-forward="false" selection-start-line="6784" selection-start-column="109" selection-end-line="6784" selection-end-column="109" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#201007#201010#0#Twig" expanded="true" />
@@ -55,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="24" column="10" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="24" selection-end-column="10" />
+              <caret line="24" column="10" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="24" selection-end-column="10" />
               <folding>
                 <element signature="e#12#26#0#Twig" expanded="true" />
                 <element signature="e#241#244#0#Twig" expanded="true" />
@@ -83,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/web/files/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="2682" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6757" selection-end-column="0" />
+              <caret line="2682" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6757" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -264,12 +264,12 @@
       <option name="presentableId" value="Default" />
       <updated>1502947565467</updated>
       <workItem from="1502947568525" duration="6273000" />
-      <workItem from="1502978327987" duration="6557000" />
+      <workItem from="1502978327987" duration="6642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12830000" />
+    <option name="totallyTimeSpent" value="12915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -410,7 +410,7 @@
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="24" selection-end-column="10" />
+          <caret line="24" column="10" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="24" selection-end-column="10" />
           <folding>
             <element signature="e#12#26#0#Twig" expanded="true" />
             <element signature="e#241#244#0#Twig" expanded="true" />
@@ -434,15 +434,15 @@
     <entry file="file://$PROJECT_DIR$/web/files/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="2682" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6757" selection-end-column="0" />
+          <caret line="2682" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6757" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/pdf.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="6779" column="48" lean-forward="false" selection-start-line="6779" selection-start-column="48" selection-end-line="6779" selection-end-column="48" />
+        <state relative-caret-position="234">
+          <caret line="6784" column="109" lean-forward="false" selection-start-line="6784" selection-start-column="109" selection-end-line="6784" selection-end-column="109" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#201007#201010#0#Twig" expanded="true" />

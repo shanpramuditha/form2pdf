@@ -6778,11 +6778,11 @@
                 <form action="{{ url('pdf') }}">
                     <div class="form-group">
                         <label for="usr">FirstName:</label>
-                        <input type="text" name="firstName" class="form-control" id="usr">
+                        <input type="text" name="firstName" class="form-control" id="usr" value="{{ firstName }}">
                     </div>
                     <div class="form-group">
                         <label for="pwd">LastName:</label>
-                        <input type="text" name="lastName" class="form-control" id="pwd">
+                        <input type="text" name="lastName" class="form-control" id="pwd" value="{{ secondName }}">
                     </div>
                     <div class="form-group">
                         <button class="btn btn-success" type="submit">Generate PDF</button>
