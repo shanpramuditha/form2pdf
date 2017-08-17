@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
+    <link rel="stylesheet" href="{{ asset('files/bootstrap.css') }}">
+    <style>
+        .jumbotron {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            color: inherit;
+            background-color: #eee;
+        }
+        .jumbotron h1,
+        .jumbotron .h1 {
+            color: inherit;
+        }
+        .jumbotron p {
+            margin-bottom: 15px;
+            font-size: 21px;
+            font-weight: 200;
+        }
+        .jumbotron > hr {
+            border-top-color: #d5d5d5;
+        }
+        .container .jumbotron,
+        .container-fluid .jumbotron {
+            padding-right: 15px;
+            padding-left: 15px;
+            border-radius: 6px;
+        }
+        .jumbotron .container {
+            max-width: 100%;
+        }
+        @media screen and (min-width: 768px) {
+            .jumbotron {
+                padding-top: 48px;
+                padding-bottom: 48px;
+            }
+            .container .jumbotron,
+            .container-fluid .jumbotron {
+                padding-right: 60px;
+                padding-left: 60px;
+            }
+            .jumbotron h1,
+            .jumbotron .h1 {
+                font-size: 63px;
+            }
+        }
+    </style>
+</head>
+<body>
+{% block body %}
+
+    <div class="jumbotron">
+        <h1>First Name :</h1>
+        <h2>{{ firstName }}</h2>
+    </div>
+
+    <div class="jumbotron">
+        <h1>Last Name :</h1>
+        <h2>{{ secondName }}</h2>
+    </div>
+
+{% endblock %}
+{% block javascripts %}
+    <script src="{{ asset('files/jquery.js') }}"></script>
+    <script src="{{ asset('files/bootstrap.js') }}"></script>
+{% endblock %}
+</body>
+</html>
